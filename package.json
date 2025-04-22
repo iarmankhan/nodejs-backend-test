@@ -1,0 +1,48 @@
+{
+  "name": "coding-challenge-backend",
+  "version": "0.1.0",
+  "description": "The backend API for the coding challenge",
+  "license": "ISC",
+  "author": "David Hartsough <hartsoughdavid@gmail.com> (https://davidhartsough.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidhartsough/coding-challenge-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidhartsough/coding-challenge-backend/issues"
+  },
+  "homepage": "https://github.com/davidhartsough/coding-challenge-backend#readme",
+  "keywords": [
+    "coding",
+    "challenge",
+    "backend",
+    "api",
+    "node",
+    "nodejs",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@types/jest": "^28.1.0",
+    "@types/node": "^17.0.38",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.4.6",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.1.0",
+    "prettier": "^2.6.2",
+    "ts-jest": "^28.0.3",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  },
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "lint": "eslint --ext .ts src/",
+    "lint:fix": "eslint --ext .ts src/ --fix",
+    "test": "jest -o --watch"
+  },
+  "packageManager": "yarn@4.7.0+sha512.5a0afa1d4c1d844b3447ee3319633797bcd6385d9a44be07993ae52ff4facabccafb4af5dcd1c2f9a94ac113e5e9ff56f6130431905884414229e284e37bb7c9"
+}

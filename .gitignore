@@ -1,0 +1,11 @@
+# Dependencies
+node_modules
+
+# Optional
+yarn-error.log
+
+# Test
+coverage
+
+# Editor
+.DS_Store
